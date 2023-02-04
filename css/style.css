@@ -10,8 +10,8 @@ html {
 
 @font-face {
   font-family: "Corporate-A-Bold";
-  src: url("Corporate-A-Bold.woff2") format("woff2"),
-    url("Corporate-A-Bold.woff") format("woff");
+  src: url("../fonts/Corporate-A-Bold.woff2") format("woff2"),
+    url("../fonts/Corporate-A-Bold.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
@@ -159,3 +159,32 @@ ul {
   line-height: 120%;
 }
 
+.premier {
+  margin-bottom: 150px;
+}
+
+.premier__btn {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: #f402a2;
+  font-family: "Corporate-A-Bold";
+  text-transform: uppercase;
+  border: 1px solid #f402a2;
+  text-align: center;
+  padding: 14px;
+}
+
+.premier__inner {
+  display: flex;
+  gap: 60px;
+}
+
+.premier__text {
+  margin-bottom: 22px;
+}
+
+.premier__img {
+  margin-bottom: 20px;
+}
