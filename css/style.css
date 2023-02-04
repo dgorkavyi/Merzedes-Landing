@@ -174,11 +174,11 @@ ul {
   border: 1px solid #f402a2;
   text-align: center;
   padding: 14px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .premier__btn:hover {
-  color: #53A1CB;
-  border-color: #53A1CB;
+  color: #53a1cb;
+  border-color: #53a1cb;
 }
 
 .premier__inner {
@@ -192,4 +192,50 @@ ul {
 
 .premier__img {
   margin-bottom: 20px;
+}
+
+.video {
+  margin-bottom: 150px;
+}
+
+.video__img {
+  margin-bottom: 25px;
+}
+
+.video__btn {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: #f402a2;
+  font-family: "Corporate-A-Bold";
+  text-transform: uppercase;
+  border: 1px solid #f402a2;
+  padding: 14px;
+  transition: all 0.3s;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.video__btn span {
+  padding-top: 2px;
+}
+
+.video__btn:hover {
+  border-color: #53a1cb;
+  color: #53a1cb;
+}
+
+.video__btn:hover {
+  border-color: #53a1cb;
+  color: #53a1cb;
+}
+
+.video__btn path {
+  transition: all 0.3s;
+}
+
+.video__btn:hover path {
+  fill: #53a1cb;
 }
