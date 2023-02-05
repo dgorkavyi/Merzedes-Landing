@@ -277,6 +277,7 @@ ul {
 
 .design-slider {
   padding-bottom: 25px;
+  margin-bottom: 150px;
 }
 
 .design-slider__item {
@@ -284,7 +285,7 @@ ul {
 }
 
 .slick-track {
-  margin-left: -35px;
+  margin-left: -230px;
 }
 
 .arrow {
@@ -300,4 +301,30 @@ ul {
 }
 .arrow-right {
   transform: translateX(30px);
+}
+
+.design__box {
+  max-width: 590px;
+  padding: 0 10px;
+  display: flex;
+  gap: 60px;
+  margin: 0 auto;
+}
+
+.desig__box-text {
+  margin-bottom: 15px;
+}
+
+.design__box-col {
+  min-width: 255px;
+}
+
+.design__box {
+  margin-bottom: 150px;
+}
+
+.design__img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
 }
