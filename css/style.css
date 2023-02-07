@@ -353,7 +353,7 @@ ul {
     width: 180px;
   }
 
-  body {
+  * {
     font-size: 24px;
   }
 
@@ -375,6 +375,14 @@ ul {
   }
   .design__cell-text {
     font-size: 22px;
+  }
+
+  .footer__inner {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
   }
 }
 
